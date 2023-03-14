@@ -31,8 +31,6 @@ void loop()
     return;
   }
 
-  lcd.setCursor(0,0);
-  lcd.print("POWER ON");
   lcd.setCursor(0, 1);
   lcd.print("Humidity: ");
   lcd.print(h);
