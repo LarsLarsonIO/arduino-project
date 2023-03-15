@@ -32,11 +32,11 @@ void loop()
   }
 
   lcd.setCursor(0, 1);
-  lcd.print("Humidity: ");
+  lcd.print("Hum: ");
   lcd.print(h);
   lcd.print(" % ");
   lcd.setCursor(0, 2);
-  lcd.print("Temperature: ");
+  lcd.print("Temp: ");
   lcd.print(t);
   lcd.print("C");
 }
